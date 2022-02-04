@@ -1,7 +1,10 @@
 const fs = require('fs');
 
 const genderArr = ['M', 'F'];
-const firstNameArr = {male: ['James', 'Robert', 'John', 'Michael', 'William'], female: ['Mary', 'Patricia', 'Jennifer', 'Linda', 'Elizabeth'],};
+const firstNameArr = {
+  male: ['James', 'Robert', 'John', 'Michael', 'William'], 
+  female: ['Mary', 'Patricia', 'Jennifer', 'Linda', 'Elizabeth'],
+};
 const lastNameArr = ['Smith', 'Kowalski', 'Johnson', 'Williams'];
 const ageRange = [18, 78];
 const people = [];
